@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --brown: rgb(147, 25, 25);
+}
+#logo{
+    width: 120%;
+    height: 130px;
+}
+/* body{
+    overflow-x: hidden;
+} */
+ul li{
+    font-size: 20px;
+}
+li{
+    color: rgb(190, 186, 186);
+}
+/* li button{
+    font-size: 80px;
+    border: 2px;
+} */
+#contact{
+    background-color: var(--brown);
+    color: white;
+}
+#contact:hover{
+    background-color: white;
+    color:  var(--brown);
+    border-color:  var(--brown);
+}
+@media (min-width:992px){
+    ul{
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width:992px){
+    .nav-item i{
+        display: none;   /*to hide the icon when screen size is lessthan 992px*/
+    }
+}
+
+.main{
+    background-image: url(./images/background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(20, 19, 19, 0.351);
+}
+.welcome{
+    padding-top: 14%;
+    padding-left: 8%;
+}
+.welcome p{
+    color: white;
+    font-size: 30px;
+}
+.welcome h1{
+    color: white;
+    font-size: 100px;
+    font-weight: 80px;
+}
+.card{
+    height: 90%;
+}
+.btn{
+    border-color: black;
+}
+@media (max-width:600px){
+    .welcome h1{
+        font-size: 50px;
+    }
+    .welcome p{
+        padding-top: 20%;
+        /* font-size: small; */
+    }
+}
+@media (max-width:920px){
+    .welcome p{
+        font-size: medium;
+    }
+    .about {
+        padding: 8px;
+    }
+    .footer{
+        padding: 10px;
+    }
+    .proimg6 #im6{
+        padding: 15px;
+    }
+    #crosil{
+        padding: 10px;
+    }
+}
+#contactbtn{
+    color: white;
+    border-color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+.our-work{
+    background-image: url(./images/white.jpg);
+    width: 100%;
+    /* height: 100vh; */
+}
+#buttonn:hover{
+     border-color: var(--brown);
+     background-color: var(--brown);
+     color: white;
+}
+#about{
+    background-color: lightgray;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 5px;
+
+}
+#aboutimg{
+    border: 7px solid var(--brown);
+    height: 450px;
+    width: 100%;
+}
+.head{
+    color: var(--brown);
+}
+.line{
+    height: 4px;
+    width: 150px;
+    border-top: 5px solid var(--brown);
+}
+.prohead1{
+    width: 50%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.proimg1{
+    position: relative;
+}
+.proimg2{
+    position: relative;
+}
+#im10{
+    height: 290px;
+}
+#im11{
+    height: 260px;
+}
+
+.prohead2{
+    width: 60%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.proimg3{
+    position: relative;  
+    /* margin-top: 10px;  */
+}
+.prohead3{
+    width: 50%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prohead4{
+    width: 50%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.proimg4{
+    position: relative;   
+}
+#im4{
+    height: 300px;
+    margin-left: 50px;
+}
+.prohead5{
+    width: 50%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.proimg5{
+    position: relative;   
+}
+#im5{
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.proimg6{
+    position: relative;  
+    margin-top: 20px; 
+    margin-left: -60px;
+    
+}
+.prohead6{
+    width: 50%;
+    /* height: 6%; */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#im6{
+    height: 625px;
+    width: 470px;
+
+}
+.imgs{
+    width: 170px;
+    height: 170px;
+}
+.testimonials{
+    margin-top: 50%;
+}
+.testimonials .people{
+    margin-left: 8%;
+}
+.footer{
+    background-color: black;
+    /* width: 100%; */
+    /* height: 400px; */
+    margin-top: 8%;
+}
